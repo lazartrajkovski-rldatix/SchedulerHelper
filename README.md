@@ -1,6 +1,17 @@
 # SchedulerHelper
 
-A proof-of-concept nurse scheduling assistant for district nursing teams. Given a list of patient visits and available nurses for the day, it automatically suggests the best nurse for each visit, calculates travel times, detects conflicts, and lets a coordinator override decisions with real-time feasibility warnings.
+# SchedulerHelper
+
+**This is a prototype / proof-of-concept only — not production-ready, not in use by any live eCommunity deployment.**
+
+A proof-of-concept nurse scheduling assistant built for eCommunity's district 
+nursing teams. Given a list of patient visits and available nurses for the day, 
+it automatically suggests the best nurse for each visit, calculates travel times, 
+detects conflicts, and lets a coordinator override decisions with real-time 
+feasibility warnings.
+
+This was built to explore and validate the scheduling/assignment approach — 
+it is not a finished product and has not been hardened for production use.
 
 ---
 
