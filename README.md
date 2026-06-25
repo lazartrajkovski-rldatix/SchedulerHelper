@@ -1,7 +1,5 @@
 # SchedulerHelper
 
-# SchedulerHelper
-
 **This is a prototype / proof-of-concept only — not production-ready, not in use by any live eCommunity deployment.**
 
 A proof-of-concept nurse scheduling assistant built for eCommunity's district 
