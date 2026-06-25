@@ -1,0 +1,1388 @@
+{
+    "isMileageCapEnabled": true,
+    "period": {
+        "cellLength": 5,
+        "startDate": "2026-06-17T06:00:00",
+        "endDate": "2026-06-17T22:00:00",
+        "duration": 16,
+        "type": "Hours"
+    },
+    "clinicianPlanningDetails": [
+        {
+            "clinician": {
+                "id": 44752,
+                "postingId": 62465,
+                "name": "Cillian  Murphy",
+                "band": "Band 9",
+                "bandId": 9,
+                "showExtraInfo": false,
+                "isLate": false,
+                "isAhead": false,
+                "isOnline": false,
+                "hasMileageCap": true,
+                "mileageCap": 25,
+                "hasValidBasePostCode": false,
+                "lateDuration": null,
+                "aheadDuration": null,
+                "assignedVisitsCount": 0,
+                "completedVisitsCount": 0,
+                "ragStatus": {
+                    "id": 0,
+                    "name": "Green",
+                    "value": 1
+                },
+                "availabilities": [
+                    {
+                        "id": 442655,
+                        "postingId": 62465,
+                        "actual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T23:00:00",
+                            "duration": 960,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T22:00:00",
+                            "duration": 900,
+                            "type": "Minutes"
+                        }
+                    }
+                ],
+                "clinicianLocation": null,
+                "clinicianColor": "116e70",
+                "totalHours": 30,
+                "assignedVisitsTimeWithoutDrivingTime": 0,
+                "assignedVisitsTimeWithDrivingTime": 0,
+                "availableHours": 870,
+                "nonPatientActivitiesTime": 30,
+                "staffNumber": "105AT",
+                "gradeEquivalence": 9,
+                "basePostCode": "",
+                "homePostCode": "",
+                "startingPostCode": null,
+                "differentOrder": false
+            },
+            "assignments": [
+                {
+                    "id": 0,
+                    "assignGuid": null,
+                    "treatmentInstanceId": null,
+                    "treatmentId": null,
+                    "clinicianId": 44752,
+                    "availabilityId": 442655,
+                    "timeSlotId": null,
+                    "postingId": 62465,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "",
+                    "secondaryLabel": "",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": null,
+                    "ragStatus": null,
+                    "band": 0,
+                    "cardStatus": null,
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": null,
+                    "actualOccurance": null,
+                    "location": null,
+                    "cardType": "",
+                    "assignmentType": "LunchBreak",
+                    "visitStatus": null,
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 0,
+                    "nhsNumber": null,
+                    "homeTelephone": null,
+                    "mobileTelephone": null,
+                    "workTelephone": null,
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": null,
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 0,
+                    "plannedTravelDistance": null,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": false,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": null,
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                }
+            ]
+        },
+        {
+            "clinician": {
+                "id": 45033,
+                "postingId": 62436,
+                "name": "Dell Delete",
+                "band": "District Nurse Band 7",
+                "bandId": 7,
+                "showExtraInfo": false,
+                "isLate": false,
+                "isAhead": false,
+                "isOnline": false,
+                "hasMileageCap": true,
+                "mileageCap": 25,
+                "hasValidBasePostCode": false,
+                "lateDuration": null,
+                "aheadDuration": null,
+                "assignedVisitsCount": 0,
+                "completedVisitsCount": 0,
+                "ragStatus": {
+                    "id": 0,
+                    "name": "Green",
+                    "value": 1
+                },
+                "availabilities": [
+                    {
+                        "id": 442654,
+                        "postingId": 62436,
+                        "actual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T23:00:00",
+                            "duration": 960,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T22:00:00",
+                            "duration": 900,
+                            "type": "Minutes"
+                        }
+                    }
+                ],
+                "clinicianLocation": null,
+                "clinicianColor": "5c1ae3",
+                "totalHours": 30,
+                "assignedVisitsTimeWithoutDrivingTime": 0,
+                "assignedVisitsTimeWithDrivingTime": 0,
+                "availableHours": 870,
+                "nonPatientActivitiesTime": 30,
+                "staffNumber": "DE639233",
+                "gradeEquivalence": 7,
+                "basePostCode": "",
+                "homePostCode": "",
+                "startingPostCode": null,
+                "differentOrder": false
+            },
+            "assignments": [
+                {
+                    "id": 0,
+                    "assignGuid": null,
+                    "treatmentInstanceId": null,
+                    "treatmentId": null,
+                    "clinicianId": 45033,
+                    "availabilityId": 442654,
+                    "timeSlotId": null,
+                    "postingId": 62436,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "",
+                    "secondaryLabel": "",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": null,
+                    "ragStatus": null,
+                    "band": 0,
+                    "cardStatus": null,
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": null,
+                    "actualOccurance": null,
+                    "location": null,
+                    "cardType": "",
+                    "assignmentType": "LunchBreak",
+                    "visitStatus": null,
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 0,
+                    "nhsNumber": null,
+                    "homeTelephone": null,
+                    "mobileTelephone": null,
+                    "workTelephone": null,
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": null,
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 0,
+                    "plannedTravelDistance": null,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": false,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": null,
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                }
+            ]
+        },
+        {
+            "clinician": {
+                "id": 44960,
+                "postingId": 62427,
+                "name": "Health Roster",
+                "band": "District Nurse Band 6",
+                "bandId": 6,
+                "showExtraInfo": false,
+                "isLate": false,
+                "isAhead": false,
+                "isOnline": false,
+                "hasMileageCap": true,
+                "mileageCap": 25,
+                "hasValidBasePostCode": false,
+                "lateDuration": null,
+                "aheadDuration": null,
+                "assignedVisitsCount": 3,
+                "completedVisitsCount": 3,
+                "ragStatus": {
+                    "id": 0,
+                    "name": "Green",
+                    "value": 1
+                },
+                "availabilities": [
+                    {
+                        "id": 443105,
+                        "postingId": 62427,
+                        "actual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T23:00:00",
+                            "duration": 960,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T22:00:00",
+                            "duration": 900,
+                            "type": "Minutes"
+                        }
+                    }
+                ],
+                "clinicianLocation": null,
+                "clinicianColor": "619b63",
+                "totalHours": 86,
+                "assignedVisitsTimeWithoutDrivingTime": 130,
+                "assignedVisitsTimeWithDrivingTime": 56,
+                "availableHours": 814,
+                "nonPatientActivitiesTime": 30,
+                "staffNumber": "T008",
+                "gradeEquivalence": 6,
+                "basePostCode": "",
+                "homePostCode": "",
+                "startingPostCode": null,
+                "differentOrder": true
+            },
+            "assignments": [
+                {
+                    "id": 724927,
+                    "assignGuid": 1150518794,
+                    "treatmentInstanceId": 445039,
+                    "treatmentId": 211478,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 62427,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "^&a, Assessment, 33Band",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 4,
+                        "name": "Yellow",
+                        "value": 4
+                    },
+                    "band": 4,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": -1305,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T06:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 255,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-18T08:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-18T08:55:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-17T10:00:00",
+                            "duration": -1320,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T06:00:00",
+                            "endDate": "2026-06-17T10:00:00",
+                            "duration": 240,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "OverriddenClinician",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 4,
+                    "plannedTravelDistance": 0.0,
+                    "plannedTravelDistanceToBase": 0.0,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 724929,
+                    "assignGuid": 2874151242,
+                    "treatmentInstanceId": 445045,
+                    "treatmentId": 211479,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 62427,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "&&&, ^&a, Administration of transdermal patches (opioid), Red 15 min, Assessment",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 3,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "band": 5,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": -105,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": -105,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T16:15:00",
+                            "duration": 75,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T16:15:00",
+                            "duration": 75,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:08:00",
+                            "duration": -112,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:08:00",
+                            "duration": -112,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "AdditionalClinician",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 1,
+                    "plannedTravelDistance": 0.0,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 724931,
+                    "assignGuid": 3509953559,
+                    "treatmentInstanceId": 445050,
+                    "treatmentId": 211480,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 62427,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "^&a, Assessment, Red 15 min",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 3,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "band": 4,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": -94,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": -94,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T15:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T15:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:25:00",
+                            "duration": -95,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:25:00",
+                            "duration": -95,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:25:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": 1,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:25:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": 1,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "OverriddenClinician",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 3,
+                    "plannedTravelDistance": 0.0,
+                    "plannedTravelDistanceToBase": 0.0,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 0,
+                    "assignGuid": null,
+                    "treatmentInstanceId": null,
+                    "treatmentId": null,
+                    "clinicianId": 44960,
+                    "availabilityId": 443105,
+                    "timeSlotId": null,
+                    "postingId": 62427,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "",
+                    "secondaryLabel": "",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": null,
+                    "ragStatus": null,
+                    "band": 0,
+                    "cardStatus": null,
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": null,
+                    "actualOccurance": null,
+                    "location": null,
+                    "cardType": "",
+                    "assignmentType": "LunchBreak",
+                    "visitStatus": null,
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 0,
+                    "nhsNumber": null,
+                    "homeTelephone": null,
+                    "mobileTelephone": null,
+                    "workTelephone": null,
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": null,
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 0,
+                    "plannedTravelDistance": null,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": false,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": null,
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                }
+            ]
+        },
+        {
+            "clinician": {
+                "id": 44442,
+                "postingId": 61057,
+                "name": "Biljana Chuchurski",
+                "band": "Band 5 Staff Nurse",
+                "bandId": 5,
+                "showExtraInfo": false,
+                "isLate": false,
+                "isAhead": false,
+                "isOnline": false,
+                "hasMileageCap": true,
+                "mileageCap": 5,
+                "hasValidBasePostCode": true,
+                "lateDuration": null,
+                "aheadDuration": null,
+                "assignedVisitsCount": 3,
+                "completedVisitsCount": 3,
+                "ragStatus": {
+                    "id": 0,
+                    "name": "Green",
+                    "value": 1
+                },
+                "availabilities": [
+                    {
+                        "id": 443238,
+                        "postingId": 61057,
+                        "actual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T23:00:00",
+                            "duration": 960,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T22:00:00",
+                            "duration": 900,
+                            "type": "Minutes"
+                        }
+                    }
+                ],
+                "clinicianLocation": null,
+                "clinicianColor": "efe11c",
+                "totalHours": -42,
+                "assignedVisitsTimeWithoutDrivingTime": 130,
+                "assignedVisitsTimeWithDrivingTime": -72,
+                "availableHours": 942,
+                "nonPatientActivitiesTime": 30,
+                "staffNumber": "7869+321",
+                "gradeEquivalence": 5,
+                "basePostCode": "CV10 0JX",
+                "homePostCode": "AB15 4TN",
+                "startingPostCode": "",
+                "differentOrder": true
+            },
+            "assignments": [
+                {
+                    "id": 724926,
+                    "assignGuid": 1481748776,
+                    "treatmentInstanceId": 445038,
+                    "treatmentId": 211478,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 61057,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "^&a, 33Band, Assessment",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 4,
+                        "name": "Yellow",
+                        "value": 4
+                    },
+                    "band": 4,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-18T08:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-18T08:00:00",
+                            "endDate": "2026-06-18T08:55:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:00:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:00:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T10:00:00",
+                            "endDate": "2026-06-17T10:15:00",
+                            "duration": 15,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "Master",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": true,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 1,
+                    "plannedTravelDistance": 123.6,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 724928,
+                    "assignGuid": 3205381224,
+                    "treatmentInstanceId": 445044,
+                    "treatmentId": 211479,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 61057,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "&&&, Red 15 min, Assessment, Administration of transdermal patches (opioid), ^&a",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 3,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "band": 5,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T16:15:00",
+                            "duration": 75,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T16:15:00",
+                            "duration": 75,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:08:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:08:00",
+                            "duration": 0,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:08:00",
+                            "endDate": "2026-06-17T13:15:00",
+                            "duration": 7,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "Master",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": true,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 2,
+                    "plannedTravelDistance": 0.0,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 724930,
+                    "assignGuid": 2869538558,
+                    "treatmentInstanceId": 445049,
+                    "treatmentId": 211480,
+                    "clinicianId": null,
+                    "availabilityId": null,
+                    "timeSlotId": null,
+                    "postingId": 61057,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "^&a, Red 15 min, Assessment",
+                    "secondaryLabel": "Nina Targaryen",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": "BA1 1AA",
+                    "ragStatus": {
+                        "id": 3,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "band": 4,
+                    "cardStatus": {
+                        "id": 0,
+                        "name": "Red",
+                        "value": 3
+                    },
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": -94,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": -94,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T15:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T15:55:00",
+                            "duration": 55,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:25:00",
+                            "duration": -95,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T15:00:00",
+                            "endDate": "2026-06-17T13:25:00",
+                            "duration": -95,
+                            "type": "Minutes"
+                        }
+                    },
+                    "actualOccurance": {
+                        "actual": {
+                            "startDate": "2026-06-17T13:25:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": 1,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T13:25:00",
+                            "endDate": "2026-06-17T13:26:00",
+                            "duration": 1,
+                            "type": "Minutes"
+                        }
+                    },
+                    "location": null,
+                    "cardType": "Master",
+                    "assignmentType": "PatientAssignment",
+                    "visitStatus": "Complete",
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 2,
+                    "nhsNumber": "5469198766",
+                    "homeTelephone": "12121456575",
+                    "mobileTelephone": "121212233113",
+                    "workTelephone": "",
+                    "outsideOfMileageCap": true,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": "12121456575",
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 3,
+                    "plannedTravelDistance": 0.0,
+                    "plannedTravelDistanceToBase": 124.6,
+                    "runsOvernight": false,
+                    "isBundled": true,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": "SpecificTime",
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                },
+                {
+                    "id": 0,
+                    "assignGuid": null,
+                    "treatmentInstanceId": null,
+                    "treatmentId": null,
+                    "clinicianId": 44442,
+                    "availabilityId": 443238,
+                    "timeSlotId": null,
+                    "postingId": 61057,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "",
+                    "secondaryLabel": "",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": null,
+                    "ragStatus": null,
+                    "band": 0,
+                    "cardStatus": null,
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": null,
+                    "actualOccurance": null,
+                    "location": null,
+                    "cardType": "",
+                    "assignmentType": "LunchBreak",
+                    "visitStatus": null,
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 0,
+                    "nhsNumber": null,
+                    "homeTelephone": null,
+                    "mobileTelephone": null,
+                    "workTelephone": null,
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": null,
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 0,
+                    "plannedTravelDistance": null,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": false,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": null,
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                }
+            ]
+        },
+        {
+            "clinician": {
+                "id": 45352,
+                "postingId": 62315,
+                "name": "Sophie Bennett",
+                "band": "Band 5 Staff Nurse",
+                "bandId": 5,
+                "showExtraInfo": false,
+                "isLate": false,
+                "isAhead": false,
+                "isOnline": false,
+                "hasMileageCap": true,
+                "mileageCap": 25,
+                "hasValidBasePostCode": false,
+                "lateDuration": null,
+                "aheadDuration": null,
+                "assignedVisitsCount": 0,
+                "completedVisitsCount": 0,
+                "ragStatus": {
+                    "id": 0,
+                    "name": "Green",
+                    "value": 1
+                },
+                "availabilities": [
+                    {
+                        "id": 442653,
+                        "postingId": 62315,
+                        "actual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T23:00:00",
+                            "duration": 960,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T07:00:00",
+                            "endDate": "2026-06-17T22:00:00",
+                            "duration": 900,
+                            "type": "Minutes"
+                        }
+                    }
+                ],
+                "clinicianLocation": null,
+                "clinicianColor": "65a443",
+                "totalHours": 30,
+                "assignedVisitsTimeWithoutDrivingTime": 0,
+                "assignedVisitsTimeWithDrivingTime": 0,
+                "availableHours": 870,
+                "nonPatientActivitiesTime": 30,
+                "staffNumber": "T0011",
+                "gradeEquivalence": 5,
+                "basePostCode": "",
+                "homePostCode": "",
+                "startingPostCode": null,
+                "differentOrder": false
+            },
+            "assignments": [
+                {
+                    "id": 0,
+                    "assignGuid": null,
+                    "treatmentInstanceId": null,
+                    "treatmentId": null,
+                    "clinicianId": 45352,
+                    "availabilityId": 442653,
+                    "timeSlotId": null,
+                    "postingId": 62315,
+                    "nonPatientActivityId": null,
+                    "primaryLabel": "",
+                    "secondaryLabel": "",
+                    "description": "",
+                    "isReviewDate": false,
+                    "isLunchBreakOverlap": false,
+                    "postcode": null,
+                    "ragStatus": null,
+                    "band": 0,
+                    "cardStatus": null,
+                    "totalTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "visitTime": {
+                        "actual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        },
+                        "visual": {
+                            "startDate": "2026-06-17T14:45:00",
+                            "endDate": "2026-06-17T15:15:00",
+                            "duration": 30,
+                            "type": "Minutes"
+                        }
+                    },
+                    "travelTime": null,
+                    "actualOccurance": null,
+                    "location": null,
+                    "cardType": "",
+                    "assignmentType": "LunchBreak",
+                    "visitStatus": null,
+                    "overlapsPeriodStart": false,
+                    "overlapsPeriodEnd": false,
+                    "numberOfClinicians": 0,
+                    "nhsNumber": null,
+                    "homeTelephone": null,
+                    "mobileTelephone": null,
+                    "workTelephone": null,
+                    "outsideOfMileageCap": false,
+                    "lunchBreakOverlapDuration": 0,
+                    "visitType": 0,
+                    "contactNumber": null,
+                    "overlapIndex": 0,
+                    "overlapGroupIndex": 0,
+                    "treatmentAdditionalClinician": 0,
+                    "sequence": 0,
+                    "plannedTravelDistance": null,
+                    "plannedTravelDistanceToBase": null,
+                    "runsOvernight": false,
+                    "isBundled": false,
+                    "hasMovedFrom": false,
+                    "treatmentTimeType": null,
+                    "safeguardingNote": null,
+                    "isRetrospectiveVisit": false
+                }
+            ]
+        }
+    ],
+    "summaryHoursStats": [
+        {
+            "name": "Available h",
+            "type": "Available",
+            "duration": {
+                "hours": 72,
+                "minutes": 46
+            }
+        },
+        {
+            "name": "Allocated visits",
+            "type": "AllocatedVisits",
+            "duration": {
+                "hours": 0,
+                "minutes": -16
+            }
+        },
+        {
+            "name": "Allocated NPAs",
+            "type": "AllocatedNonPatientAssignments",
+            "duration": {
+                "hours": 2,
+                "minutes": 30
+            }
+        },
+        {
+            "name": "Σ Allocated",
+            "type": "AllocatedTotal",
+            "duration": {
+                "hours": 2,
+                "minutes": 14
+            }
+        }
+    ],
+    "isAutoallocateInProgress": false
+}
